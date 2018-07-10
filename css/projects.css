@@ -1,0 +1,143 @@
+html,body{
+	height: 100%;
+	font-family: "Trade Gothic W01",Arial,Helvetica,sans-serif ;
+}
+
+.nav-extened{
+	background-color: #656d74;
+	position:fixed;
+	top:0;
+	z-index: 999;
+	width: 100%;
+}
+.navbar{
+	max-width: 1400px;
+	margin: 0 auto;
+}
+.navbar-brand {
+	color: white !important;
+}
+
+
+.typography h1{
+	font-family: "Trade Gothic W01",Arial,Helvetica,sans-serif !important;
+    font-style: normal;
+    font-weight: 700;
+}
+.projects{
+	margin-bottom: 50px;
+	/*width: 90%;*/
+	/*padding-left: 10px;*/
+}
+.projects-header{
+  	padding-top: 90px;
+    padding-bottom: 20px;
+    max-width: 2200px;
+    margin: 0 auto;
+    width:90%;
+    padding-left: 16px;
+}
+.projects-header hr {
+    /*background: #9D1535;*/
+    /*height: 4px;*/
+
+}
+
+.projects-wrapper{
+	display: flex;
+	max-width: 2200px;
+	margin: auto;
+	flex-wrap: wrap;
+	margin-left:5%;
+
+}
+.project-item{
+	box-shadow: 4px 10px 20px 3px rgba(187, 207, 231, 0.5);
+	margin: 10px 20px ;
+}
+.project-img{
+	text-align: center;
+}
+.project-img img{
+	padding-top: 10px;
+}
+.project-add{
+	padding-top: 20px;
+    padding-left: 10px;
+	font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+footer{
+	background:#2c2f3c;
+    padding: 60px 0 0;
+    bottom:0;
+ 
+}
+
+.footer-container{
+	margin: 0 auto;
+	max-width: 1170px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap:wrap;
+}
+.footer-widge{
+	width: 263px;
+	height: 212px;
+}
+.footer-logo{
+	height: 170px;
+	width: 170px;
+}
+
+.widge-wrapper{
+	color: white;
+	display: flex;
+	flex-direction: column;
+}
+.widge-title{
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.widge-title h4{
+	font-size: 18px !important;
+    line-height: 30px;
+}
+.widge-wrapper a{
+	color: #cbcbcd;
+	text-decoration: none;
+} 
+.copyrights{
+	background-color: #262934;
+}
+.copyrights-container{
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px 0 10px;
+	color: #cbcbcd;
+}
+
+@media (max-width: 414px){
+	.project-item{
+		max-width: 400px;
+		max-height: 400px;
+	}
+	.project-img img{
+		max-width: 380px;
+		max-height: 315px;
+	}
+}
+
+@media (min-width: 415px){
+	.project-item{
+		width: 400px;
+		height: 400px;
+	}
+	.project-img img{
+		width: 380px;
+		height: 315px;
+	}
+}
