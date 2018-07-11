@@ -47,18 +47,7 @@
 
 								wp_nav_menu( $defaults );
 
-							?>
-							<!-- <li class="nav-item dropdown " style="cursor: pointer;">
-								<div class="nav-link dropdown-toggle" to='/' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Languages
-								</div>
-								<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-									<a href="<?php bloginfo('template_url'); ?>/barhems_ch/index.html" style="text-decoration: none;">
-										<div class="dropdown-item" style="text-align: center;">中文</div>
-									</a>
-								</div>
-							</li> -->
-					
+							?>					
 					</div>
 				</nav>
 			</div>

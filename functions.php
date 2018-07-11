@@ -47,6 +47,8 @@ function job_bm_action_after_single_job() {
   echo '</div>';
 }
 
+
+
 //Home Page Localization
 pll_register_string( 'News', 'News' );
 pll_register_string( 'Manchu Express', 'Manchu Express' );

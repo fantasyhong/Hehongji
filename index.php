@@ -15,6 +15,7 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 	<!-- <script src="<?php bloginfo('template_url'); ?>/js/home.js"></script> -->
+	<?php wp_head(); ?>
 </head>
 
 <?php echo '<body class="'.join(' ', get_body_class()).'">'.PHP_EOL; ?>
@@ -47,35 +48,9 @@
 								wp_nav_menu( $defaults );
 
 							?>
-							<!-- <li class="nav-item dropdown " style="cursor: pointer;">
-								<div class="nav-link dropdown-toggle" to='/' id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Languages
-								</div>
-								<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-									<a href="<?php bloginfo('template_url'); ?>/barhems_ch/index.html" style="text-decoration: none;">
-										<div class="dropdown-item" style="text-align: center;">中文</div>
-									</a>
-								</div>
-							</li> -->
-					
-					</div>
+						</div>
 				</nav>
 			</div>
-	<!-- <div class="banner" style="background-image: url('<?php bloginfo('template_url'); ?>/imgs/BigBanner1.jpg');
-			background-repeat: no-repeat;
-			background-size: cover;
-			background-position: 50%;
-			min-height: 455px;
-			background-attachment: fixed !important;
-			">	
-			<div class="banner-slider">
-				<h3><?php echo pll__( 'Professional Commercial Real Estate Management' );?></h3>
-				<P class="banner-text">
-					<?php echo pll__( 'We have a professional real estate developing and management team, providing our clients with personalized financial services as well as private assets management. We are dedicated to developing an online shopping platform focusing on servicing potential clients in the real estate industry.');?>
-
-				</P>
-			</div>
-		</div> -->
 	</header>
 	<main class="flex-fill">
 	<div class="main-header">
@@ -87,7 +62,8 @@
 			</div>
 	 <div class="main">
 	 		<!-- <img src='<?php bloginfo('template_url'); ?>/imgs/mainpage.jpg'> -->
-	 		<?php echo do_shortcode('[metaslider id="88"]'); ?>
+	 		<!-- <?php echo do_shortcode('[metaslider id="88"]'); ?> -->
+	 		<?php echo photo_gallery(2); ?>
 	 </div>
 
 	</main>

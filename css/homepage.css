@@ -455,6 +455,8 @@ footer{
     	margin-left: auto;
     	margin-right: auto;
 	}
+
+
 }
 
 
@@ -993,6 +995,7 @@ h4.personal_details {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    /*height: 100vh;*/
 }
 
 .home .main{
@@ -1003,4 +1006,66 @@ h4.personal_details {
 
 .home .main-header{
 	margin-top: -30px;
+}
+
+
+
+
+.metaslider .slides img{
+	object-fit: cover;
+	height: 100vh !important;
+}
+
+/*Main Page Slide Option 2*/
+.bwg_slideshow_image_wrap_0{
+	display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width:100% !important;
+    height:100vh !important;
+}
+
+.bwg_slideshow_image_container_0{
+	width:100% !important;
+	height:100vh !important;
+}
+
+.bwg_slideshow_dots_container_0{
+	width:100% !important;
+}
+
+.bwg_slideshow_embed_0{
+	width: 100% !important;
+	height: 100vh !important;
+}
+
+.bwg_lightbox img{
+	object-fit: cover !important;
+	height: 100vh !important;
+}
+
+.bwg_slide_container_0{
+	height: 100vh !important;
+}
+
+.bwg_slideshow_image_0{
+	max-height: 100vh !important;
+}
+
+
+.bwg_slideshow_dots_container_0{
+	overflow: visible !important;
+}
+
+.bwg_slideshow_dots_thumbnails_0{
+	overflow: visible !important;
+	padding-top: 20px;
+}
+
+.bwg_slideshow_dots_0{
+	background: rgba(0,0,0,.5) !important;
+}
+
+.bwg_slideshow_dots_active_0{
+	background: rgba(0,0,0,.9) !important;
 }
