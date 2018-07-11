@@ -11,7 +11,7 @@ This repo contains the custom theme for Manchu Express' website. (http://www.heh
 </ul>
 <strong style="font-size:15px">Known Issue(s)</strong><br />
 <ul>
-<li>Photo Gallery's default JS is hardcoded with <i>!important</i>flag; manully removed it to customize CSS. <b>Will</b> have to redo the changes after plugin is updated</li>
+<li>Photo Gallery's default JS is hardcoded with <i>!important</i> flag; manully removed it to customize CSS. <b>Will</b> have to redo the changes after plugin is updated</li>
 </ul>
 <br />
 
