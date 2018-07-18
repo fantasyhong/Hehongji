@@ -61,10 +61,24 @@
 				</div>
 			</div>
 	 <div class="main">
-	 		<!-- <img src='<?php bloginfo('template_url'); ?>/imgs/mainpage.jpg'> -->
-	 		<!-- <?php echo do_shortcode('[metaslider id="88"]'); ?> -->
 	 		<?php echo photo_gallery(2); ?>
-	 </div>
+	 		<div class="brand-history">
+	 			<div class="brand-history-text">
+	 			<h2><?php echo pll__('Brand History');?></h2>
+	 			<div class="brand-icon">
+							<img src="<?php bloginfo('template_url'); ?>/imgs/meatpie-logo.png">
+				</div>
+	 			<p>
+				<?php echo pll__("Hehongji is a Chinese brand that aims to bring Liaoning famous food - Baked meat pie into the American market. This brand is inspired by a warm and sweet story. The founder who is a wondering son misses his mother’s handmade baked meat pie, then he created the signature recipe, secret spices mixes, and the mutton soup.");?>
+				</p>
+				<div class="meat-pie">
+							<img src="<?php bloginfo('template_url'); ?>/imgs/meatpie-mainpage.png">
+				</div>
+				<p>
+				<?php echo pll__("We hope to reintroduce the unique cuisine of our hometown to the world: Baked meat pie and the mutton soup all in its most authentic form.");?>
+				</p>
+				</div>
+	 		</div>
 
 	</main>
 

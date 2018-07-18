@@ -79,4 +79,7 @@ pll_register_string( 'Home Page', 'Email:' );
 pll_register_string( 'Home Page', 'Hours of Operation:' );
 pll_register_string( 'Home Page', '9:00am - 6:00pm (Mon-Fri)' );
 pll_register_string( 'Home Page', 'Linkedin' );
+pll_register_string( 'Home Page', 'Brand History' );
+pll_register_string( 'Home Page', 'Hehongji is a Chinese brand that aims to bring Liaoning famous food - Baked meat pie into the American market. This brand is inspired by a warm and sweet story. The founder who is a wondering son misses his mother’s handmade baked meat pie, then he created the signature recipe, secret spices mixes, and the mutton soup.' );
+pll_register_string( 'Home Page', 'We hope to reintroduce the unique cuisine of our hometown to the world: Baked meat pie and the mutton soup all in its most authentic form.' );
 ?>
