@@ -7,6 +7,7 @@ This repo contains the custom theme for Manchu Express' website. (http://www.heh
 
 7/19/2018:
 <ul><li>Home Page layout update</li>
+</ul>
 <br />
 
 7/18/2018:
