@@ -1,9 +1,14 @@
 # Manchu Express
 
-This repo contains the custom theme for Manchu Express' website. (http://www.hehongjiny.com)
+This repo contains the custom theme for Manchu Express' website. (https://www.hehongjiny.com)
 
 
 <strong style="font-size:20px">Change Log</strong><br />
+
+7/25/2018:
+<ul><li>HTTPS is enabled on the website</li>
+</ul>
+<br />
 
 7/19/2018:
 <ul><li>Home Page layout update</li>
