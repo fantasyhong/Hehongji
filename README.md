@@ -5,6 +5,12 @@ This repo contains the custom theme for Manchu Express' website. (https://www.he
 
 <strong style="font-size:20px">Change Log</strong><br />
 
+8/3/2018:
+<ul><li><b>WooCommerce</b> plugin added</li>
+	<li>CSS updated for the checkout page</li>
+</ul>
+<br />
+
 7/25/2018:
 <ul><li>HTTPS is enabled on the website</li>
 </ul>
