@@ -56,19 +56,6 @@ pll_register_string( 'Go Back', 'Go Back' );
 pll_register_string( 'Read more »', 'Read more »' );
 pll_register_string( 'Projects', 'Projects' );
 pll_register_string( 'Contact', 'Contact' );
-pll_register_string( 'Home Page', 'Professional Commercial Real Estate Management' );
-pll_register_string( 'Home Page', 'We have a professional real estate developing and management team, providing our clients with personalized financial services as well as private assets management. We are dedicated to developing an online shopping platform focusing on servicing potential clients in the real estate industry.');
-pll_register_string( 'Home Page', 'Primary Projects' );
-pll_register_string( 'Home Page', "Focusing on real estate and capital investment, Barhems has 3 major projects in prime locations in NYC. We plan to develop a Barhems Mall with the luxury rental on the currently Macy's location in the heart of Flushing. In addition, we have selected an ideal building in the harbor area of Brooklyn to develop a Barhems Market servicing real estate developers who need construction materials as well as furniture and appliances. Meanwhile, we plan to open a grand SPA resort In Flushing, featuring state-of-the-art designs, high-end amenities, private SPA services." );
-pll_register_string( 'Home Page','Project Name:');
-pll_register_string( 'Home Page','Investment Size:');
-pll_register_string( 'Home Page','Founded in New York, Barhams Corporation has a wide range of resources, providing services for America commercial real estate investment, private equity funding, business development & management and online shopping platform.');
-pll_register_string( 'Home Page','Commercial Real Estate ');
-pll_register_string( 'Home Page','If you are looking for a loyal partner in Commercial Real Estate related field, Barhems Corporation will be your best choice.');
-pll_register_string( 'Home Page','Shopping with us ');
-pll_register_string( 'Home Page',"Our online shopping platform brings convenience to your daily life, and it's our pleasure to provide anything you are looking for. We guarantee your 100% satisfaction.");
-pll_register_string( 'Home Page','Financial Consulting');
-pll_register_string( 'Home Page',"Our financial team will provide you with dedicated financial planning, assets management, and investment portfolio optimization.");
 pll_register_string( 'Home Page', 'Navigation' );
 pll_register_string( 'Home Page', 'Home' );
 pll_register_string( 'Home Page', 'Career' );
@@ -82,4 +69,11 @@ pll_register_string( 'Home Page', 'Linkedin' );
 pll_register_string( 'Home Page', 'Brand History' );
 pll_register_string( 'Home Page', 'Hehongji is a Chinese brand that aims to bring Liaoning famous food - Baked meat pie into the American market. This brand is inspired by a warm and sweet story. The founder who is a wondering son misses his mother’s handmade baked meat pie, then he created the signature recipe, secret spices mixes, and the mutton soup.' );
 pll_register_string( 'Home Page', 'We hope to reintroduce the unique cuisine of our hometown to the world: Baked meat pie and the mutton soup all in its most authentic form.' );
+
+/**
+ * Remove related products output
+ */
+remove_action( 'woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20 );
 ?>
+
+

@@ -15,7 +15,7 @@
 		 
 
 		 	<div class="news-date">
-        		<time class="news_item_date"><?php the_date(); ?></time>
+        		<!-- <time class="news_item_date"><?php the_date(); ?></time> -->
         		<hr>
         		</div>
         	 <div class="news-img">
